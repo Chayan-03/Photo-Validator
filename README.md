@@ -17,6 +17,36 @@ A modern web application that validates passport photos against official country
 - **Database**: MongoDB
 - **AI**: Google Gemini API for image analysis
 
+  
+## 🌐 Backend Deployment
+
+This backend is deployed on **Render** and can be accessed at:
+
+🔗 [https://photo-validator.onrender.com](https://photo-validator.onrender.com)
+
+> 🕐 Note: Since Render uses free-tier containers, the server might take **5–10 seconds to respond on the first request** (cold start).
+
+---
+
+## 🧪 API Testing
+
+Here are a few endpoints you can test:
+
+### ➤ Get all countries
+```bash
+GET https://photo-validator.onrender.com/countries
+```
+### ➤ Get specific country Data/Guidelines
+```bash
+GET https://photo-validator.onrender.com/specs/:country
+```
+
+
+## 🌐 Frontend Deployment
+This frontend is deployed on **Vercel** and can be accessed at:
+🔗 [https://photo-validator-nine.vercel.app/](https://photo-validator-nine.vercel.app/)
+
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -73,4 +103,9 @@ The application comes with sample data for several countries including:
 - NEW ZEALAND
 
 You can add more countries by following the same data structure in the MongoDB collection.
+
+
+
+
+
 
