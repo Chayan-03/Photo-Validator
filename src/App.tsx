@@ -122,7 +122,7 @@ function App() {
           
           <div className="mt-8 text-center text-sm text-gray-500">
             <p>
-              This tool validates passport photos against The Dummy Guidelines Made for this Project Only .
+              This tool validates passport photos against The Dummy Guidelines Made for this Project Only .This Project Is Created for Learning Purpose
               Results are provided for informational purposes only.
             </p>
           </div>
